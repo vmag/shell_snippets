@@ -17,3 +17,7 @@ Convert Virtuabox image to QEMU image:
 Mount RAMDISK:  
 
     mount -t tmpfs -o size=512m tmpfs /mnt/ramdisk
+    
+Create ansible role:  
+
+    ansible-galaxy init <rollename>
