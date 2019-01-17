@@ -7,9 +7,13 @@ Convert Virtuabox image to QEMU image:
 
     qemu-img convert -f vdi -O qcow2 Virtualbox.vdi QEMU.qcow
     
- Centos 7 change kernel:
+ Centos 7 change kernel: 
  
     awk -F\' /^menuentry/{print\$2} /etc/grub2.cfg
     grub2-set-default 1
     grub2-mkconfig -o /boot/grub2/grub.cfg
     shuwtdown -r now
+    
+Mount RAMDISK:  
+
+    mount -t tmpfs -o size=512m tmpfs /mnt/ramdisk
