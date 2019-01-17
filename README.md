@@ -3,7 +3,7 @@ Linux: emergency reboot or shutdown
     echo 1 > /proc/sys/kernel/sysrq 
     echo b > /proc/sysrq-trigger
 
-Convert Virtuabox image to QEMU image:
+Convert Virtualbox image to QEMU image:
 
     qemu-img convert -f vdi -O qcow2 Virtualbox.vdi QEMU.qcow
     
