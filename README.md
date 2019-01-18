@@ -12,7 +12,7 @@ Convert Virtualbox image to QEMU image:
     awk -F\' /^menuentry/{print\$2} /etc/grub2.cfg
     grub2-set-default 1
     grub2-mkconfig -o /boot/grub2/grub.cfg
-    shuwtdown -r now
+    shutdown -r now
     
 Mount RAMDISK:  
 
