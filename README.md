@@ -21,3 +21,8 @@ Mount RAMDISK:
 Create ansible role:  
 
     ansible-galaxy init <rollename>
+    
+Install LT kernel from Elrepo:  
+    
+    rpm -Uvh https://elrepo.org/linux/kernel/el7/x86_64/RPMS/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+    yum --enablerepo=elrepo-kernel install kernel-lt
