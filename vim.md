@@ -9,4 +9,8 @@ Vertical split:
      
  Switch between splits:  
  
-    Ctrl+w
+    Ctrl+w  
+    
+Close buffer:  
+
+    :bd
