@@ -1,4 +1,4 @@
 Send vim to background:  
 
-  Ctrl+z
-  fg
+    Ctrl+z  
+    fg
