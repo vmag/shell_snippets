@@ -24,7 +24,7 @@ start_agent:
                 --device /dev/net/tun:/dev/net/tun --name=syntropy-agent \
                 -e SYNTROPY_NETWORK_API='docker' \
                 -e SYNTROPY_CONTROLLER_URL=controller-sandbox-platform-agents.syntropystack.com \
-                -e SYNTROPY_AGENT_TOKEN=Q08Pz4DviOkug7FkYbMXLyQm0Z0zRtEF -d syntropynet/agent:beta
+                -e SYNTROPY_AGENT_TOKEN=repleace_me -d syntropynet/agent:beta
 stop_agent:
         docker stop syntropy-agent
         docker rm syntropy-agent
